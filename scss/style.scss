@@ -1,0 +1,46 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$primario: rgb(255, 198, 255);
+$theme-colors: (
+    "primario": $primario
+);
+
+// Default variable overrides
+$body-bg: #d2f6ffd8;
+$body-color: #272727;
+
+// Required
+
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional Bootstrap components here
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+//
+
+.container{
+margin: 5%;
+}
+
+footer{
+    background-color: #4d4b4b;
+    margin-bottom: 0 !important; 
+}
+
+footer ul, p{
+    padding: 15px;
+    color: #f3ebeb;
+
+}
+
+footer img{
+    max-width: 110px;
+}
+
+body{
+    height: 1vh;
+}
