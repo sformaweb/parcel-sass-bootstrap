@@ -23,3 +23,4 @@
 
 * Para o procesamento dos datos creouse un arquivo PHP que recolle a información do formulario e móstraa en pantalla. Debe introducirse na carpeta dist e no arquivo index.html introducir os seguintes atributos no formulario: action="nomearquivo.php" method="POST". Ademáis, debemos engadirlle un atributo name a todos os inputs do formulario que se recollerán da seguinte maneira no arquivo PHP: echo "Frase a mostrar en pantalla: ". $__POST[' name_'].
 
+> **Para que funcionen correctamente os estilos**, debemos engadir novos scripts no arquivo package.json, o máis importante é "build". A continuación executamos na consola npm run build. Se da erro, debemos crear un arquivo na raíz do directorio chamado ".htmlnanorc" co código {"minifySvg": false}. Se funcionou, debería terse creado unha carpeta chamada "build". Agora accedendo dende localhost/carpetadoproxecto/build xa debería funcionar.
